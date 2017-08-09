@@ -1,0 +1,36 @@
+body {
+}
+
+.full {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  margin: 20px auto;
+  text-align: center;
+}
+header h1 {
+  color: #ed6e2f;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.menu {
+  flex: 0 auto;
+  width: 20vw;
+  padding: 20px;
+}
+.menu ul {
+  list-style: none;
+  text-align: center;
+}
+.menu-list li {
+  padding: 10px;
+}
+
+.home {
+  flex: 1 auto;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
